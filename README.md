@@ -1,4 +1,5 @@
-# S.C.O.U.T (Scope Change Observation & Unified Tracking)
+# S.C.O.U.T 
+Scope Change Observation & Unified Tracking
 
 A modular Bug Bounty monitoring tool that tracks program changes, discovers new subdomains, and sends Telegram notifications.
 
