@@ -1,0 +1,38 @@
+{
+  "database": {
+    "host": "localhost",
+    "user": "scout_user",
+    "password": "your_secure_password",
+    "database": "scout_db",
+    "port": 3306
+  },
+  "telegram": {
+    "bot_token": "your_telegram_bot_token",
+    "chat_id": "your_chat_id"
+  },
+  "notifications": {
+    "type": "telegram",
+    "enabled": true
+  },
+  "platforms": {
+    "bugcrowd": {
+      "enabled": true,
+      "programs_to_monitor": [
+        "https://bugcrowd.com/engagements/intercom",
+        "https://bugcrowd.com/engagements/atlassian"
+      ]
+    },
+    "hackerone": {
+      "enabled": true,
+      "programs_to_monitor": [
+        "https://hackerone.com/hack_the_box"
+      ]
+    },
+    "yeswehack": {
+      "enabled": true,
+      "programs_to_monitor": [
+        "https://yeswehack.com/programs/zecible-public-bug-bounty-program"
+      ]
+    }
+  }
+}

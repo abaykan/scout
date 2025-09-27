@@ -1,0 +1,7 @@
+requests==2.31.0
+beautifulsoup4==4.12.2
+mysql-connector-python==8.1.0
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+lxml==4.9.3
+schedule==1.2.0
