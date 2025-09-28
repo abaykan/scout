@@ -45,7 +45,7 @@ class SCOUTMonitor:
     def _setup_notifier(self):
         """Setup notification system"""
         notifier_type = self.config.get('notifications', {}).get('type', 'telegram')
-        notifier = create_notifier(notifier_type)
+        notifier = create_notifier(notifier_type, self.config)
         
         if notifier:
             self.logger.info(f"Notifier configured: {notifier_type}")
